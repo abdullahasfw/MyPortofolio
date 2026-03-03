@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E3DBBB;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    filter: invert(100%);
+}
+
+h2, h3, h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #41431B; 
+    padding: 15px 40px; 
+    position: sticky; 
+    top: 0; 
+}
+
+.nav-links { 
+    list-style:none; 
+    display: flex; 
+    gap: 20px; 
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover { 
+    color: #AEB784; 
+}
+
+section { 
+    padding: 80px 20px; 
+    text-align: center; 
+}
+
+.skills-list { list-style: none; 
+    padding: 0; 
+} 
+.skill-list li { 
+    margin: 8px 0; 
+}
+
+.projects-list { list-style: none; 
+    padding: 0; 
+    
+}
+.projects-list li { 
+    margin: 8px 0; 
+}
+
+footer { 
+    background-color: #41431B; 
+    color: white; 
+    text-align: center; 
+    padding: 15px; 
+}
